@@ -6,7 +6,7 @@ o   Event
 [ ] Task
 ---
 
-[ ] Look into LaunchCode
+- [ ] Look into LaunchCode
 
 ### Container (LXC)
 * each application is sandboxed on the server
@@ -21,5 +21,7 @@ o   Event
 * config stored /var/lib/docker/containers/{imagename}/config.lxc
 * Cannot apply diffs; must be whole image + your changes
 * dockerfile is a configuration script
-[ ] Research Immutable Server
-[ ] Research Jenkins
+
+
+- [ ] Research Immutable Server
+- [ ] Research Jenkins
