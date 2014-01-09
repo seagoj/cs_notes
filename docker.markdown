@@ -4,9 +4,9 @@
 ---
 * Note
 
-o Event
+  o Event
 
-[ ] Task
+- [ ] Task
 
 
 
