@@ -1,10 +1,10 @@
 # docker
 
 ## Legend
-*   Note
-o   Event
-[ ] Task
 ---
+* Note
+o Event
+[ ] Task
 
 - [ ] Look into LaunchCode
 
