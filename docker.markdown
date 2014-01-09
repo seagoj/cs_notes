@@ -3,8 +3,8 @@
 ## Legend
 ---
 * Note
-- o Event
-- [ ] Task
+* o Event
+* [ ] Task
 
 
 
