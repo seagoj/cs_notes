@@ -4,7 +4,7 @@
 ---
 * Note
 * o Event
-* [ ] Task
+* [] Task
 
 - [ ] Look into LaunchCode
 
