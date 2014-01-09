@@ -2,10 +2,8 @@
 
 ## Legend
 ---
-- * Note
-
+* Note
 - o Event
-
 - [ ] Task
 
 
