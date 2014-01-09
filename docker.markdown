@@ -23,5 +23,5 @@ o   Event
 * dockerfile is a configuration script
 
 
-- [ ] Research Immutable Server
-- [ ] Research Jenkins
+[ ] Research Immutable Server
+[ ] Research Jenkins
