@@ -3,8 +3,12 @@
 ## Legend
 ---
 * Note
+
 o Event
+
 [ ] Task
+
+
 
 - [ ] Look into LaunchCode
 
