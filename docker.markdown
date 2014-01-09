@@ -1,10 +1,5 @@
-o Docker Presentation @ Riot Games - 1/8/14
+Docker Presentation @ Riot Games - 1/8/14
 ---
-
-##### Legend
-* Note
-* o Event
-* [ ] Task
 
 ### LaunchCode
 * [ ] Look into LaunchCode
