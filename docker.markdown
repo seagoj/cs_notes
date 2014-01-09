@@ -6,8 +6,6 @@
 * o Event
 * [ ] Task
 
-
-
 - [ ] Look into LaunchCode
 
 ### Container (LXC)
