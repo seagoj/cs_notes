@@ -21,7 +21,5 @@ o   Event
 * config stored /var/lib/docker/containers/{imagename}/config.lxc
 * Cannot apply diffs; must be whole image + your changes
 * dockerfile is a configuration script
-
-
-[ ] Research Immutable Server
-[ ] Research Jenkins
+* [ ] Research Immutable Server
+* [ ] Research Jenkins
