@@ -19,3 +19,24 @@ $callback = function cb() {
 }
 call_user_func($callback);
 ```
+
+### Static Variables
+```php
+// Retain value between function calls, but are only accessible in the function
+function tally() {
+    static $total=0;
+    return ++$total;
+}
+echo tally();   // 1
+echo tally();   // 2
+```
+
+### Error Suppression
+```php
+@mysql_query($sql);
+```
+
+### Execute shell command
+```php
+echo `ls /var/www`
+```
