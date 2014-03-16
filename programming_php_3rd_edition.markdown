@@ -40,3 +40,35 @@ echo tally();   // 2
 ```php
 echo `ls /var/www`
 ```
+
+### Declare
+```php
+declare();
+register_tick_function();
+```
+
+### Variable Arguments
+```php
+function_get_args();                // get all passed arguments
+function_num_args();                // get number of arguments passed
+function_het_arg($argumentNumber);  // retrieve specific argument
+
+### Type Hinting
+```php
+function a(int $a, callable $callback) {...}
+```
+
+### Anonymous Functions
+Allowed
+
+### Variables in string
+```php
+echo "You are the {$n}th person in line.";
+```
+
+### Nth character in string
+```php
+$string{$n};
+```
+
+
