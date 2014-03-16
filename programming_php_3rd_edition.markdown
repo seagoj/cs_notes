@@ -12,4 +12,10 @@ function floatCompare($float1, $float2, $decimalPlaces=3) {
 }
 ```
 
-
+### Callbacks
+```php
+$callback = function cb() {
+    echo "function called";
+}
+call_user_func($callback);
+```
