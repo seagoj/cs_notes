@@ -33,3 +33,4 @@ App.IndexController = Ember.Controller.extend({
     <div id='time'>{{time}}</div>
 </script>
 ```
+
