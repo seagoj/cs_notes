@@ -276,6 +276,67 @@ angular.module("MyApp", ["ngRoute"]])
 
 <a anme="m5"/>
 ### M5: Services
+- Communicate with server or between controllers
+
+####  Building your first service
+```javascript
+angular.module('MyApp', [])
+
+    // factory to define usersService
+    .factory('usersService',  function() {
+        var user;
+        return {
+            setCurrentUser: function(current) {
+                user = current;
+            },
+            getCurrentUser: function() {
+                return user;
+            }
+        };
+    })
+
+    .controller('DetailCtrl', [$scope', 'usersService',
+        function($scope, usersService) {
+            usersService.setCurrentUser('user');
+            console.log(usersService.getCurrentUser());
+    }]);
+```
+
+#### $http service
+
+##### $http services is modeled after the REST verbs
+- $hhtp.get
+- $http.head
+- $http.post
+- $http.put
+- $http.delete
+- $http.jsonp
+
+##### Promises
+- Promises are a way to registry an async callbackl using  the ```.then()``` method
+
+##### Using $http
+```javascript
+angular.module('MyApp', [])
+
+    .controller('ListCtrl', ['$scope', '$http', function($scope, $http) {
+        $http.get('./users.json').success(functions(users) {
+            $scope.users = users;
+        });
+    }]);
+```
+
+##### Controller Communication
+- Controllers shouldn't talk directly  with each  other
+- Services provide the communication
+
+###### Communication Methods
+- $broadcast sends events downwards through the callstack
+- $emit sends events upwards through the callstack
+- $on listens for events
+- One of the few acceptable uses of $rootScope is as an event bus
+
+> RESUME ON MODULE 44
 
 <a name="m6"/>
 ### M6: Directives
